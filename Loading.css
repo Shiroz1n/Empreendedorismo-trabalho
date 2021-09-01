@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background: #f0ffff;
+}
+#Load {
+    width: 60px;
+    height: 60px;
+    
+    border: rgb(0, 0, 0.18) solid;
+    border-left-color: #e20202;
+    border-radius: 50%;
+
+    animation: loading 1.2s infinite;      
+}
+@keyframes Loading{
+    to {transform: rotate(360deg);}
+}
+}
